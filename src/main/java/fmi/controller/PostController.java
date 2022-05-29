@@ -1,9 +1,9 @@
-package controller;
+package fmi.controller;
 
-import entity.Post;
+import fmi.entity.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.PostService;
+import fmi.service.PostService;
 
 import javax.transaction.Transactional;
 

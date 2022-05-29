@@ -1,10 +1,9 @@
-package controller;
+package fmi.controller;
 
-import entity.User;
+import fmi.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.UserService;
+import fmi.service.UserService;
 
 import javax.transaction.Transactional;
 

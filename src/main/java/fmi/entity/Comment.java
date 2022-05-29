@@ -1,14 +1,13 @@
-package entity;
+package fmi.entity;
 
 import lombok.Data;
 import org.jetbrains.annotations.NotNull;
 
 import javax.persistence.*;
 
-
+@Data
 @Entity
 @Table(name = "comments")
-@Data
 public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -16,14 +15,14 @@ public class Comment {
 
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "post_id")
     private Post post;
 
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "user_id")
     private User creator;
 
     @Column
-    private String comment;
+    private String text;
 }

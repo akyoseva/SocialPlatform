@@ -1,9 +1,9 @@
-package service;
+package fmi.service;
 
-import entity.Comment;
+import fmi.entity.Comment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.CommentRepository;
+import fmi.repository.CommentRepository;
 
 @Service
 public class CommentService {

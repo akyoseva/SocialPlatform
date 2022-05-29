@@ -4,30 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2933da6-92f5-4250-8e1e-403a66f0f3af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
+    <list default="true" id="c2933da6-92f5-4250-8e1e-403a66f0f3af" name="Changes" comment="..">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmi/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +58,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application" />
+      <option name="MAIN_CLASS_NAME" value="fmi.Application" />
+      <module name="SocialPlatform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fmi.controller.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fmi.controller.Application" />
       <module name="SocialPlatform" />
       <extension name="coverage">
         <pattern>
@@ -84,6 +88,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.fmi.controller.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1652891028280</updated>
     </task>
+    <task id="LOCAL-00001" summary="..">
+      <created>1653762735750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653762735750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
 </project>

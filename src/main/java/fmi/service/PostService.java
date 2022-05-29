@@ -1,9 +1,9 @@
-package service;
+package fmi.service;
 
-import entity.Post;
+import fmi.entity.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.PostRepository;
+import fmi.repository.PostRepository;
 
 @Service
 public class PostService {

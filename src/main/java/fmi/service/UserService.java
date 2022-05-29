@@ -1,9 +1,9 @@
-package service;
+package fmi.service;
 
-import entity.User;
+import fmi.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.UserRepository;
+import fmi.repository.UserRepository;
 
 @Service
 public class UserService {

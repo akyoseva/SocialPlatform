@@ -1,4 +1,4 @@
-package entity;
+package fmi.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.Cascade;
@@ -8,9 +8,9 @@ import org.hibernate.annotations.LazyCollectionOption;
 import javax.persistence.*;
 import java.util.List;
 
+@Data
 @Entity
 @Table(name = "posts")
-@Data
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -20,7 +20,7 @@ public class Post {
     private String title;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "user_id")
     private User creator;
 
     @OneToMany(mappedBy = "post")

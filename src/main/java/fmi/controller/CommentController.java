@@ -1,9 +1,9 @@
-package controller;
+package fmi.controller;
 
-import entity.Comment;
+import fmi.entity.Comment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.CommentService;
+import fmi.service.CommentService;
 
 import javax.transaction.Transactional;
 

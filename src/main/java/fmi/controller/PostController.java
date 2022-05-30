@@ -2,14 +2,17 @@ package fmi.controller;
 
 import fmi.entity.Post;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import fmi.service.PostService;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @RestController
 @RequestMapping("/posts")
 @Transactional
+@CrossOrigin
 public class PostController {
     private PostService postService;
 
@@ -18,7 +21,7 @@ public class PostController {
         this.postService = postService;
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public void add(@RequestBody Post post){
         postService.add(post);
     }
@@ -32,5 +35,15 @@ public class PostController {
     @GetMapping("/{id}")
     public Post getPostById(@PathVariable Long id){
         return postService.findById(id);
+    }
+
+    @GetMapping
+    public List<Post> getPosts() {
+        return postService.getPosts();
+    }
+
+    @PutMapping
+    public void update(@RequestBody Post post) {
+        postService.update(post);
     }
 }
